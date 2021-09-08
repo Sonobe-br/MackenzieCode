@@ -1,0 +1,61 @@
+.fotoPerfil {
+    width: 600px;
+    height: 600px;
+    margin: 2%, 20em;
+    background-size: auto;
+}
+
+#A, #B, #C, #D {
+    width: 100px;
+    height: 100px;
+}
+
+#esquerda {
+    float: left;
+}
+
+#direita {
+    float: rigth;
+    height: 350px;
+}
+
+h1 {
+    height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 8px;    
+}
+
+h2 {
+    text-decoration: overline; 
+}
+
+h3 {
+    text-decoration: line-through;
+}
+
+p {
+    letter-spacing: 5px;
+    text-indent: 40px;
+}
+
+li {
+    letter-spacing: 5px;
+    text-indent: 40px;
+    text-transform: capitalize;
+}
+
+
+th {
+    text-align: center;
+    
+}
+
+td {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}
+
