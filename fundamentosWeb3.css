@@ -2,7 +2,7 @@
     width: 600px;
     height: 600px;
     margin: 2%, 20em;
-    background-size: auto;
+    padding: 20px 0px 20px 20px;
 }
 
 #A, #B, #C, #D {
@@ -23,7 +23,7 @@ h1 {
     height: 30px;
     text-decoration: underline;
     text-transform: uppercase;
-    letter-spacing: 8px;    
+    letter-spacing: 8px;   
 }
 
 h2 {
