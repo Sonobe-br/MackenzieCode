@@ -1,0 +1,53 @@
+.logoCSS{
+    margin-top: 10px;    
+    margin-top: 1em;         
+    margin-top: 5%;
+
+}
+
+body{
+    width: 800px;
+}
+
+#Header{
+    background: yellow;
+    border-radius: 8px;
+    width: 640px;
+    height: 100px;
+    margin: 10px;
+} 
+
+#Column1{
+    background: green;
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+}
+
+#Column2{
+    background: orangered;
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+    }
+
+#Column3{
+    background: blue;
+    border-radius: 8px;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+}
+
+h2{
+    text-align: center;
+}
+
+#Top{
+    padding-top: 30px;
+}
