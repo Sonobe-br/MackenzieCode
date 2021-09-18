@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+    opacity: 90%;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.page-title{
+    background-color: #0a0aa3;
+    width: 590px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.page-subtitle{
+    background-color: hsl(240, 63%, 80%);
+    text-align: right;
+    width: 600px;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 5px;
+    
+}
