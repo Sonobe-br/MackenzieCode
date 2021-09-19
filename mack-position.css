@@ -5,8 +5,8 @@
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
-    opacity: 90%;
+    background-image: url("https://techbreak.ig.com.br/wp-content/uploads/2020/09/spacex-scaled.jpg");
+    opacity: 93%;
     background-color: #ffffff;
     background-size: cover;
     background-position: center top;
@@ -15,6 +15,10 @@ body{
 
 .page-title{
     background-color: #0a0aa3;
+    border-radius: 3px;
+    position: relative;
+    left: 5px;
+    margin-top: 5px;
     width: 600px;
     height: 50px;
     font-size: 20px;
@@ -24,11 +28,31 @@ body{
 
 .page-subtitle{
     background-color: hsl(240, 63%, 80%);
+    border-radius: 2px;
+    position: relative;
+    left: 625px;
+    bottom: 53px;
     text-align: right;
-    width: 600px;
-    font-size: 15px;
+    width: 605px;
+    font-size: 14px;
     color: #ffffff;
     padding: 5px;
     margin: 5px;
-    
+}
+
+.bloco4{
+    background-color: rgb(250, 158, 238);
+    border-radius: 10px;
+    width: 1100px;
+    height: 140px;  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #706a6a;
+    text-align: justify;
+    margin: 10px;
+    padding: 40px;
+}
+
+h2{
+    width: 100%;
 }
