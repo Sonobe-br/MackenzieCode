@@ -97,3 +97,41 @@ p{
     clear: both;
     text-align: center;
 }
+
+@media screen and (max-width: 480px)  {
+    .wrapper{
+        margin: 0;
+        width: 100%;
+    }
+    
+    .links{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    
+    .linkar1{
+        position: static;
+        float: none;
+    }
+    
+    .linkar2{
+        position: static;
+        float: none;
+    }
+    
+    .linkar3{
+        position: static;
+        float: none;        
+    }
+
+    .aside-1{
+       float: none;
+       width: 100%;
+    }
+
+    .aside-2{
+        float: none;
+        width: 100%;
+    }
+}
