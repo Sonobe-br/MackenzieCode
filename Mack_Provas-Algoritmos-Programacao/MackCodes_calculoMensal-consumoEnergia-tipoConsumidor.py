@@ -5,7 +5,7 @@ calculoConta = precoKwh * quantidadesKw
 if tipoConsumidor == 1:
     print(f'Consumo do tipo Residencial R${calculoConta}')
 elif tipoConsumidor == 2:
-    print(f'Consumo do tipo Comercial R${calculoConta*1.5}')
+    print(f'Consumo do tipo Comercial R${calculoConta*1.05}')
 elif tipoConsumidor == 3:
     print(f'Consumo do tipo Industrial R${calculoConta*1.15}')
 else:
