@@ -13,3 +13,9 @@ while numero != 0:
 print ('Soma = ', soma)
 print ('Maior = ', maior)
 print ('Menor = ', menor)
+
+
+"""Enunciado
+Faremos o programa em Python para resolver o seguinte problema: 
+Elabore um programa em Python que solicite um conjunto de números (encerrando a entrada de dados com 0) .  
+Determine o menor e o  maior valor do conjunto e a soma dos valores  digitados.""" 
