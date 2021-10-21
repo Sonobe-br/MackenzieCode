@@ -5,62 +5,144 @@ body {
     background-position: center top;
     background-repeat: no-repeat;  
 }
-  
+
+.botton1 {
+    background: #f5b400;
+    width: 150px;
+    height: 30px;
+    float: right;
+    border-radius: 5px;
+    position: relative;
+    right: 450px;
+    top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botton2 {
+    background: #1df500;
+    width: 150px;
+    height: 30px;
+    float: right;
+    border-radius: 5px;
+    position: relative;
+    right: 140px;
+    top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ 
+.botton3 {
+    background: #00f5e1;
+    width: 150px;
+    height: 30px;
+    float: right;
+    border-radius: 5px;
+    position: relative;
+    left: -310px;
+    top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botton4 {
+    background: #f50000;
+    width: 150px;
+    height: 30px;
+    float: right;
+    border-radius: 5px;
+    position: relative;
+    left: 320px;
+    top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0.5;
+}
+
 .container {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 20px;
 }
 
-.social {
+.fa-instagram{
     position: relative;
     float: left;
-    left: 1100px;
-    text-align:right;
-    top: 300px;
-    color: #fffffb;
-    font-size: 15px;
+    left: 575px;
+    top: 1px;
+    z-index: 10;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bolder;
+   
 }
-  
+
+.fa-twitter{
+    position: relative;
+    float: left;
+    left: 653px;
+    top: 1px;
+    z-index: 10;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.fa-discord{
+    position: relative;
+    float: left;
+    left: 730px;
+    top: 1px;
+    z-index: 10;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+.fa-github{
+    position: relative;
+    float: left;
+    left: 820px;
+    top: 1px;
+    z-index: 10;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
 .page-title {
     position: relative;
-    font-size: 20px;
+    z-index: 10; /* sobrepôs um elemento sobre o outro */
+    font-size: 10px;
     font-weight: bolder;
-    color: #fffffb;
-    left: 420px;
+    color: #042379;
+    left: 200px;
     max-height: 160px;
-    top: 285px;
-    
+    top: 350px;   
 }
 
 .page-subtitle {
     position: relative;
-    font-size: 15px;
-    left: 390px;
-    color: #fffffb;
-    bottom: -205px;  
-}
- 
-.page-subtitle1 {
-    position: relative;
-    font-size: 12px;
-    font-weight: bolder;
-    
-    color: #ce0505;
-    
+    font-size: 9px;
+    font-weight:lighter;
+    left: 450px;
+    color: #042379;
+    bottom: -293px;  
 }
 
 .page-logo {
     position: relative;
     left: 370px;
-    width: 200px;
-    top: 150px;
+    width: 170px;
+    top: 360px;
 }
-    
-#listaFilmes img {
-    margin: 10px;
-    max-height: 250px;
-}
+
+.ticket-nasa {
+    position: relative;
+    float: right;
+    left: -200px;
+    top: 180px;
+}   
   
 .form-wrapper {
     margin: 0 0 15px;   
@@ -97,7 +179,7 @@ body {
     position: relative;
     font-family: 'Courier New', Courier, monospace;
     left: 350px;
-    top: 330px;
+    top: 450px;
 	font-size: 15px;
 	color: #0f0f0f;   
     margin-bottom: 50px;
