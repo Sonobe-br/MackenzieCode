@@ -6,59 +6,6 @@ body {
     background-repeat: no-repeat;  
 }
 
-.botton1 {
-    background: #f5b400;
-    width: 150px;
-    height: 30px;
-    float: right;
-    border-radius: 5px;
-    position: relative;
-    right: 450px;
-    top: 10px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.botton2 {
-    background: #1df500;
-    width: 150px;
-    height: 30px;
-    float: right;
-    border-radius: 5px;
-    position: relative;
-    right: 140px;
-    top: 10px;
-    cursor: pointer;
-    transition: 0.5s;
-}
- 
-.botton3 {
-    background: #00f5e1;
-    width: 150px;
-    height: 30px;
-    float: right;
-    border-radius: 5px;
-    position: relative;
-    left: -310px;
-    top: 10px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.botton4 {
-    background: #f50000;
-    width: 150px;
-    height: 30px;
-    float: right;
-    border-radius: 5px;
-    position: relative;
-    left: 320px;
-    top: 10px;
-    cursor: pointer;
-    transition: 0.5s;
-    opacity: 0.5;
-}
-
 .container {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
@@ -66,48 +13,75 @@ body {
 }
 
 .fa-instagram{
+    background: #00f5e1;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-transform: lowercase;
+    width: 150px;
+    height: 30px;
     position: relative;
     float: left;
-    left: 575px;
-    top: 1px;
+    left: 529px;
+    top: 9px;
     z-index: 10;
-    cursor: pointer;
-    transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: all 150ms cubic-bezier(.175, .885, .32, 1.275);
     font-weight: bolder;
-   
+    box-shadow: 12px 5px 5px #000000;
 }
 
 .fa-twitter{
+    background: #f5b400;
+    border-radius: 4px;
+    border: none;
+    width: 150px;
+    height: 30px;
     position: relative;
     float: left;
-    left: 653px;
-    top: 1px;
+    left: 550px;
+    top: 9px;
     z-index: 10;
     cursor: pointer;
     transition: 0.5s;
     font-weight: bolder;
+    box-shadow: 12px 5px 5px #000000;
 }
 
 .fa-discord{
+    background: #1df500;
+    border-radius: 4px;
+    
+    width: 150px;
+    height: 30px;
     position: relative;
     float: left;
-    left: 730px;
-    top: 1px;
+    left: 573px;
+    top: 9px;
     z-index: 10;
     cursor: pointer;
     transition: 0.5s;
     font-weight: bolder;
+    box-shadow: 12px 5px 5px #000000;
 }
 
 .fa-github{
+    background:#000000;
+    color: #ffffff;
+    border-radius: 4px;
+    
+    width: 150px;
+    height: 30px;
     position: relative;
     float: left;
-    left: 820px;
-    top: 1px;
+    left: 595px;
+    top: 9px;
     z-index: 10;
     cursor: pointer;
     transition: 0.5s;
     font-weight: bolder;
+    box-shadow: 12px 5px 5px #000000;
+
 }
 
 .page-title {
@@ -116,25 +90,27 @@ body {
     font-size: 10px;
     font-weight: bolder;
     color: #042379;
-    left: 200px;
+    left: 190px;
     max-height: 160px;
-    top: 350px;   
+    top: 296px;   
 }
 
 .page-subtitle {
     position: relative;
     font-size: 9px;
     font-weight:lighter;
-    left: 450px;
+    left: 430px;
     color: #042379;
-    bottom: -293px;  
+    top: 265px;  
 }
 
 .page-logo {
     position: relative;
-    left: 370px;
-    width: 170px;
-    top: 360px;
+    right: 405px;
+    width: 78px;
+    top: 424px;
+    transform: rotate(-4deg);
+    opacity: .9;
 }
 
 .ticket-nasa {
@@ -186,7 +162,7 @@ body {
     text-align: justify;
 }
 
-/* @media screen and (min-width: 1000px) and (max-width: 1280px) {
+@media screen and (min-width: 1000px) and (max-width: 1280px) {
     .body{
         width: 100%;
         height: 100%;
@@ -218,7 +194,7 @@ body {
        /* width: 100%; */
     }
 
-    /* .form-wrapper button{
+    .form-wrapper button{
         float: none;
         width: 100%;
     }
@@ -227,4 +203,4 @@ body {
         position: absolute;
 
     }
-} */ */
+}
