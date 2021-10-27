@@ -1,12 +1,12 @@
 body {
-    position: static;
+    position: relative;
     background-image: url("./mars2.jpg");
     background-color: #222020;
     background-size: contain;
-    background-position: center top;
     background-repeat: no-repeat;
     overflow-x: hidden; /* overflow-w e y remove a scrollagem horizontal */
-    overflow-y: scroll;  
+    overflow-y: scroll;
+    height: -10px;  
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
 
 .meusDados{
     position: relative;
-    top: -39px;
+    top: -20px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 10px;
     left: -10px;
@@ -30,7 +30,7 @@ body {
 .logo-top{
     position: relative;
     float: left;
-    top: -85px;
+    top: -70px;
 }
 
 .fa-space{
@@ -44,7 +44,7 @@ body {
     position: relative;
     float: left;
     left: 529px;
-    top: 35px;
+    top: 55px;
     z-index: 10;
     font-weight: bolder;
     box-shadow: 12px 5px 5px #000000;
@@ -66,7 +66,7 @@ body {
     position: relative;
     float: left;
     left: 550px;
-    top: 35px;
+    top: 55px;
     z-index: 10;
     font-weight: bolder;
     box-shadow: 12px 5px 5px #000000;
@@ -88,7 +88,7 @@ body {
     position: relative;
     float: left;
     left: 573px;
-    top: 35px;
+    top: 55px;
     z-index: 10;
     font-weight: bolder;
     box-shadow: 12px 5px 5px #000000;
@@ -112,7 +112,7 @@ body {
     position: relative;
     float: left;
     left: 595px;
-    top: 35px;
+    top: 55px;
     z-index: 10;
     cursor: pointer;
     font-weight: bolder;
@@ -139,7 +139,7 @@ body {
     position: relative;
     font-size: 9px;
     font-weight:lighter;
-    left: 650px;
+    left: 265px;
     color: #042379;
     top: 330px;  
 }
@@ -163,14 +163,25 @@ body {
     left: 80px;
 } */
 
-.nasa-2{
+.fotos-nasa{
     position: relative;
-    float: right;
+    float: left;
     width: 390px;
     height: 153px;
-    top: 837px;
+    top: 1145px;
+    z-index: 50;
+    left: -102px;
+}
+#text-nasa1{
+    position: relative;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    color:#00ff00;
+    font-size: 9px;
+    left: -55px;
     z-index: 10;
-    right: 329px;
+    top: -10px;
 }
 
 .text-nasa01{
@@ -197,8 +208,8 @@ body {
   
 #form-wrapper input {
     position: relative;
-    left: 973px;
-    top: -119px;
+    left: 570px;
+    top: -60px;
     background-color: transparent;
     border:solid 2px #343636;
     border-radius: 10px;
@@ -217,8 +228,8 @@ body {
     /* acabamento do botão */
     border:none;
     float:left;
-    top: -117px;
-    left: 1212px;
+    top: -96px;
+    left: 729px;
     height:34px;
     border-radius:0 8px 8px 0;
     width:70px;
@@ -244,20 +255,82 @@ body {
 .video{
     position: relative;
     left: 950px;
-    top: 630px;
+    top: 500px;
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
     z-index: 10;
 }
 
-.foot-js{
+.main-content{
+    position: relative;
+    top: 43px;
+    left: 100px;
+    width: 880px;
+    height: 190px;     
+}
+
+.designer{
+    position: relative;
+    background-color: #00f5e1;
+    top: -270px;
+    left: 22px;
+    width: 906px;
+    height: 590px; 
+    opacity: 0.3;
+    overflow: hidden;
+}
+
+.astro-nasa{
+    position: relative;
+    top: -230px;
+    left: -78px;
+    width: 583px;
+    height: 423px;
+    z-index: 10;
+}
+h3{
     position: relative;
     font-family: 'Courier New', Courier, monospace;
-    top: -29px;
-    font-size: 13px;
-    color: #ffffff;
-    left: 20px;
+    color:#00ff00;
+    font-size: 16px;
+    left: -72px;
+    top: -245px;
+}
+
+.astro-nasa1{
+    position: relative;
+    left: 629px;
+    top: -378px;
+    z-index: 10;
+}
+#text-nasa2{
+    position: relative;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    color:#00ff00;
+    font-size: 9px;
+    left: -453px;
+    z-index: 10;
+    top: -177px;
+}
+
+.astro-nasa2{
+    position: relative;
+    left: 324px;
+    top: -63px;
+    z-index: 10;
+}
+#text-nasa3{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    color:#00ff00;
+    font-size: 9px;
+    left: 628px;
+    z-index: 10;
+    top: -68px;
 }
 
 .navegation{
@@ -265,7 +338,7 @@ body {
     font-family:'Courier New', Courier, monospace;
     font-size: 22px;
     color: #ffffff;
-    top: -199px;
+    top: -159px;
     left: 500px;
     font-weight: bolder;
     cursor: pointer;
@@ -274,10 +347,19 @@ body {
     opacity: 0.5;
 }
 
+.foot-js{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    top: -790px;
+    font-size: 11px;
+    color: #ffffff;
+    left: 20px;   
+}
+
 .rodape{
     position: relative;
-    bottom: -255px;
-    height: 250px;
+    bottom: -500px;
+    height: -20px;
     width: 250%;
     background-image: url(./universo.jpg) ;
     background: #222020;
@@ -290,41 +372,88 @@ body {
 .Copyright { 
     position: relative;
     font-family: 'Courier New', Courier, monospace;
-    left: 510px;
-    top: 340px;
-	font-size: 14px;
-	color: #0f0f0f;   
+    left: 20px;
+    top: -212px;
+	font-size: 12px;  
     margin-bottom: 50px;
-    text-align: justify;
+    text-align: center;
+    z-index: 10;   
 }
+
+.Copyright-backColor{
+    position: relative;
+    left: -20px;
+    width: 1500px;
+    height: 310px;
+    background: #000000;
+    top: -560px;
+}
+
 .img1{ /* instagram */
     position: relative;
-    top: -190px;
-    left: 540px;  
+    top: -792px;
+    left: 1090px;  
 }
 
 .img2{ /* twitter */
     position: relative;
-    top: -195px;
-    left: 555px;  
+    top: -794px;
+    left: 1100px;  
 }
 
 .img3{ /* gitHub */
     position: relative;
-    top: -185px;
-    left: 565px;
+    top: -785px;
+    left: 1105px;
 }
 
-p{
+.img4{
+    position: relative;
+    top: -790px;
+    left: 1105px;
+}
+
+.img5{
+    position: relative;
+    top: -790px;
+    left: 855px;
+}
+
+.menuNav{
     position: relative;
     font-family: 'Courier New', Courier, monospace;
-    left: 530px;
-    bottom: 165px;
-	font-size: 16px;
+    left: 473px;
+	font-size: 21px;
 	color: #00ff00;   
-    margin-bottom: 50px;
+    top: -1027px;
     text-transform: uppercase;
+    cursor: pointer;
+    z-index: 10;
 }
+
+.redesSociais{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    left: 1093px;
+	font-size: 11px;
+    top: 35px;
+    color: #ffffff;
+}
+
+.img-footer{
+    position: relative;
+    left: 1090px;
+    top: -1070px;
+    padding: 0px;
+
+}
+.gotomars-text{
+    position: relative;
+    top:-600px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5b400;
+    font-size: 50px;
+} */
 
 @media screen and (min-width: 1000px) and (max-width: 1280px) {
     .body{

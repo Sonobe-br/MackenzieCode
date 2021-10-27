@@ -13,14 +13,14 @@ function adicionarCurso(){
 }
 
 nome = '+ Daniel Sonobe Silveira';
-birthDate = ' - Ano: 1978';
+birthDate = ' - Year of Born: 1978';
 facebook = '<br>+ Facebook: @letsgotomars_official';
 instagram = '<br>+ Instagram: @letsgotomars_official';
 twitter = '<br>+ Twitter: @letsgotomars_official';
 linkedin = '<br>+ Linkedin: @letsgotomars_official';
 gitHub = '<br>+ GitHub: @letsgotomars_official';
 sex = '<br>+ Sex: Masculine';
-Localization = '<br>+ Localization: São Paulo/SP';
+Localization = '<br>+ Localization: Brazil - São Paulo/SP';
 Pole = '<br>+ Pole: Higienópolis';
 
 document.write(nome);
