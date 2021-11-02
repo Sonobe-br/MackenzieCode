@@ -3,7 +3,7 @@ let listaDeCidades = ['São Paulo','Rio de Janeiro'];
 let minhasCidades = [listaDeCidades];
 
 function exibeMinhaCidade(nomeDasCidades){
-    if(minhasCidades == listaDeCidades.indexOf[0]){
+    if(nomeDasCidades == listaDeCidades.indexOf[0]){
         document.write('<img src="./sao_paulo.jpg">');    
     } 
     else if(minhasCidadesCidades == listaDeCidades.indexOf[1]){
@@ -16,7 +16,7 @@ function exibeMinhaCidade(nomeDasCidades){
     }
 
 }
- */
+ 
 /* function gerarCidade(){
     let estado = document.getElementById('estado').add;
     let cidade  = document.getElementById('cidade');
