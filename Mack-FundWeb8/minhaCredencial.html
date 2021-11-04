@@ -16,23 +16,23 @@
             const newHours = greet.getHours();
             document.write(greet);
 
-            if (greet >= 0 && greet < 5){
-                document.write(' Opá ainda é madrugada!');
+            if (greet >= 0 && greet.getHours() < 5){
+                document.write(" Opá ainda é madrugada!");
                 const calendario = document.querySelector(".style-js");
-                calendario.style.background = '#7fff00'; //green 
-            }else if(greet >= 5 && greet < 12){
-                document.write(' Já amanheceu! Bom dia com muita alegria!');
+                calendario.style.background = "#7fff00"; //green 
+            }else if(greet >= 5 && greet.getHours() < 12){
+                document.write(" Já amanheceu! Bom dia com muita alegria!");
                 const calendario = document.querySelector(".style-js");
-                calendario.style.background = '#0000ff'; //blue
-            }else if(greet >= 12 && greet < 18){
-                document.write(' Boa tarde! Vamos almoçar?');
+                calendario.style.background = "#0000ff"; //blue
+            }else if(greet >= 12 && greet.getHours() < 18){
+                document.write(" Boa tarde! Vamos almoçar?");
                 const calendario = document.querySelector(".style-js");
-                calendario.style.background =  '#ff4500'; //orangered
+                calendario.style.background =  "#ff4500"; //orangered
             }else{
-                document.write(' Boa noite! É hora de estudar 🎧 ');
+                document.write(" Boa noite! É hora de estudar 🎧 ");
                 const calendario = document.querySelector(".style-js");
-                calendario.style.background = '#800080'; //purple
-                calendario.style.color = '#ffffff'; //white 
+                calendario.style.background = "#800080"; //purple
+                calendario.style.color = "#ffffff"; //white 
             } 
         </script>
     </div>
