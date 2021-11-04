@@ -1,0 +1,26 @@
+.hello-js{
+    position: relative;
+    top: 40px;
+    margin-bottom: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+    font-style:inherit;
+    font-weight:bold;
+    
+}
+
+.style-js{  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#foto-mack{
+    width: 1333px;
+    height: 506px;
+}
+
+#logo-mack{
+    position: relative;
+    top: 1px;
+    width: 590px;
+    height: 190px 
+}
