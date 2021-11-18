@@ -54,6 +54,7 @@ def main():
         if operacao == 8:
             break
         
+        
         if operacao == 1:
             inserir_amigo(amigo)
         elif operacao == 2:
