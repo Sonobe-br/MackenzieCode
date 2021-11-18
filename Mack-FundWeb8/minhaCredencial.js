@@ -11,7 +11,7 @@ class Credencial{
 const credencial1 = new Credencial();
 credencial1.nome = 'Daniel';
 credencial1.sobrenome = 'Sonobe Silveira';
-credencial1.idade = 43;
+credencial1.idade = 43 + ' anos de idade,';
 credencial1.sexo = 'Masculino';
 credencial1.cidade = 'São Paulo/SP';
 credencial1.curso = 'Análise e Desenvolvimento de Sistemas';
